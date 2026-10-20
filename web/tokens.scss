@@ -1,0 +1,12 @@
+// Fingoals Design Tokens SCSS
+$fg-color-brand-primary: #0B63F6;
+$fg-color-brand-primary-hover: #0952CE;
+$fg-color-brand-navy: #122A5E;
+$fg-color-brand-sky: #A8CBFF;
+$fg-font-family-sans: Plus Jakarta Sans, Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+$fg-radius-2xl: 24px;
+$fg-radius-full: 9999px;
+
+:root {
+  @import './tokens.css';
+}

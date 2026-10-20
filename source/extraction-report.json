@@ -1,0 +1,20 @@
+{
+  "designSystemName": "Fingoals Design System",
+  "version": "1.0.0",
+  "date": "2026-10-20",
+  "sourceImage": "Fingoals Financial Overview Dashboard",
+  "productType": "Fintech SaaS Financial Analytics Dashboard",
+  "extractedTokensCount": {
+    "colors": 25,
+    "typographyStyles": 9,
+    "spacingScales": 17,
+    "radiusScales": 9,
+    "shadowScales": 5
+  },
+  "confidenceBreakdown": {
+    "observed": "Primary blue (#0B63F6), white surfaces, off-white canvas (#F8F9FA), dark contrast (#0C0F14), pill radiuses (9999px), card radiuses (~24px), font scale hierarchy",
+    "estimated": "Font family (Plus Jakarta Sans/Inter), subtle border colors (#E4E7EC), secondary gray tints, dark mode color mapping",
+    "inferred": "Hover states (primary dark blue #0952CE), focus rings, status palette extensions",
+    "proposed": "Dark theme semantic values, extended status palettes for complete design system lifecycle"
+  }
+}

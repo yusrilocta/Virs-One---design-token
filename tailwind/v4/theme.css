@@ -1,0 +1,18 @@
+@theme {
+  --color-brand-primary: var(--fg-color-brand-primary);
+  --color-brand-primary-hover: var(--fg-color-brand-primary-hover);
+  --color-brand-navy: var(--fg-color-brand-navy);
+  --color-brand-sky: var(--fg-color-brand-sky);
+
+  --color-canvas: var(--fg-bg-canvas);
+  --color-surface: var(--fg-bg-surface);
+  --color-surface-muted: var(--fg-bg-surface-muted);
+  --color-surface-inverse: var(--fg-bg-surface-inverse);
+
+  --color-text-primary: var(--fg-text-primary);
+  --color-text-secondary: var(--fg-text-secondary);
+  --color-text-muted: var(--fg-text-muted);
+
+  --radius-card: var(--fg-radius-2xl);
+  --radius-pill: var(--fg-radius-full);
+}

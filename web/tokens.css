@@ -1,0 +1,180 @@
+/**
+ * Fingoals Design System - Universal Tokens
+ * Generated: 2026-10-20T01:32:17.448Z
+ * Single Source of Truth
+ */
+
+:root {
+  /* ================= Primitives ================= */
+  --fg-color-brand-primary: #0B63F6;
+  --fg-color-brand-primary-hover: #0952CE;
+  --fg-color-brand-primary-light: #EBF2FF;
+  --fg-color-brand-navy: #122A5E;
+  --fg-color-brand-sky: #A8CBFF;
+  --fg-color-brand-cyan: #00B4D8;
+
+  --fg-color-neutral-0: #FFFFFF;
+  --fg-color-neutral-50: #F8F9FA;
+  --fg-color-neutral-100: #F0F2F5;
+  --fg-color-neutral-200: #E4E7EC;
+  --fg-color-neutral-300: #D0D5DD;
+  --fg-color-neutral-400: #98A2B3;
+  --fg-color-neutral-500: #667085;
+  --fg-color-neutral-600: #475467;
+  --fg-color-neutral-700: #344054;
+  --fg-color-neutral-800: #1D2939;
+  --fg-color-neutral-900: #101828;
+  --fg-color-neutral-950: #0C0F14;
+
+  --fg-color-success-50: #ECFDF3;
+  --fg-color-success-500: #12B76A;
+  --fg-color-success-700: #027A48;
+  --fg-color-warning-50: #FFFAEB;
+  --fg-color-warning-500: #F79009;
+  --fg-color-danger-50: #FEF3F2;
+  --fg-color-danger-500: #F04438;
+
+  --fg-font-family-sans: Plus Jakarta Sans, Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --fg-font-family-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  --fg-font-size-10: 10px;
+  --fg-font-size-11: 11px;
+  --fg-font-size-12: 12px;
+  --fg-font-size-13: 13px;
+  --fg-font-size-14: 14px;
+  --fg-font-size-16: 16px;
+  --fg-font-size-18: 18px;
+  --fg-font-size-20: 20px;
+  --fg-font-size-24: 24px;
+  --fg-font-size-28: 28px;
+  --fg-font-size-32: 32px;
+  --fg-font-size-36: 36px;
+  --fg-font-size-40: 40px;
+
+  --fg-font-weight-regular: 400;
+  --fg-font-weight-medium: 500;
+  --fg-font-weight-semibold: 600;
+  --fg-font-weight-bold: 700;
+
+  --fg-line-height-none: 1;
+  --fg-line-height-tight: 1.2;
+  --fg-line-height-snug: 1.3;
+  --fg-line-height-normal: 1.5;
+  --fg-line-height-relaxed: 1.6;
+
+  --fg-spacing-0: 0px;
+  --fg-spacing-2: 2px;
+  --fg-spacing-4: 4px;
+  --fg-spacing-6: 6px;
+  --fg-spacing-8: 8px;
+  --fg-spacing-10: 10px;
+  --fg-spacing-12: 12px;
+  --fg-spacing-14: 14px;
+  --fg-spacing-16: 16px;
+  --fg-spacing-20: 20px;
+  --fg-spacing-24: 24px;
+  --fg-spacing-28: 28px;
+  --fg-spacing-32: 32px;
+  --fg-spacing-36: 36px;
+  --fg-spacing-40: 40px;
+  --fg-spacing-48: 48px;
+  --fg-spacing-56: 56px;
+  --fg-spacing-64: 64px;
+
+  --fg-radius-none: 0px;
+  --fg-radius-xs: 4px;
+  --fg-radius-sm: 8px;
+  --fg-radius-md: 12px;
+  --fg-radius-lg: 16px;
+  --fg-radius-xl: 20px;
+  --fg-radius-2xl: 24px;
+  --fg-radius-3xl: 32px;
+  --fg-radius-full: 9999px;
+
+  --fg-shadow-none: none;
+  --fg-shadow-sm: 0px 1px 3px rgba(16, 24, 40, 0.05), 0px 1px 2px rgba(16, 24, 40, 0.03);
+  --fg-shadow-md: 0px 4px 8px -2px rgba(16, 24, 40, 0.06), 0px 2px 4px -2px rgba(16, 24, 40, 0.04);
+  --fg-shadow-lg: 0px 12px 16px -4px rgba(16, 24, 40, 0.08), 0px 4px 6px -2px rgba(16, 24, 40, 0.03);
+  --fg-shadow-card: 0px 1px 3px rgba(0, 0, 0, 0.02), 0px 0px 0px 1px rgba(0, 0, 0, 0.04);
+  --fg-shadow-float: 0px 20px 24px -4px rgba(16, 24, 40, 0.08), 0px 8px 8px -4px rgba(16, 24, 40, 0.03);
+
+  /* ================= Light Theme Semantic (Default) ================= */
+  --fg-bg-canvas: #F8F9FA;
+  --fg-bg-surface: #FFFFFF;
+  --fg-bg-surface-muted: #F0F2F5;
+  --fg-bg-surface-inverse: #0C0F14;
+  --fg-bg-surface-brand: #0B63F6;
+  --fg-bg-surface-brand-muted: #EBF2FF;
+
+  --fg-text-primary: #101828;
+  --fg-text-secondary: #667085;
+  --fg-text-muted: #98A2B3;
+  --fg-text-inverse: #FFFFFF;
+  --fg-text-brand: #0B63F6;
+  --fg-text-success: #027A48;
+
+  --fg-border-default: #E4E7EC;
+  --fg-border-muted: #F0F2F5;
+  --fg-border-focus: #0B63F6;
+
+  --fg-action-primary-bg: #0B63F6;
+  --fg-action-primary-hover-bg: #0952CE;
+  --fg-action-primary-text: #FFFFFF;
+  --fg-action-secondary-bg: #F0F2F5;
+  --fg-action-secondary-hover-bg: #E4E7EC;
+  --fg-action-secondary-text: #344054;
+  --fg-action-dark-bg: #0C0F14;
+  --fg-action-dark-text: #FFFFFF;
+
+  --fg-chart-bar-primary: #0B63F6;
+  --fg-chart-bar-navy: #122A5E;
+  --fg-chart-bar-sky: #A8CBFF;
+  --fg-chart-bar-dark: #0C0F14;
+  --fg-chart-bar-muted: #E4E7EC;
+
+  --fg-card-radius: 24px;
+  --fg-card-padding: 24px;
+  --fg-card-shadow: 0px 1px 3px rgba(0, 0, 0, 0.02), 0px 0px 0px 1px rgba(0, 0, 0, 0.04);
+  --fg-card-bg: var(--fg-bg-surface);
+
+  --fg-pill-radius: 9999px;
+  --fg-pill-padding-x: 16px;
+  --fg-pill-padding-y: 10px;
+}
+
+/* ================= Dark Theme Overrides ================= */
+[data-theme="dark"], .dark-theme {
+  --fg-bg-canvas: #0B0E14;
+  --fg-bg-surface: #151922;
+  --fg-bg-surface-muted: #1F2430;
+  --fg-bg-surface-inverse: #FFFFFF;
+  --fg-bg-surface-brand: #0B63F6;
+  --fg-bg-surface-brand-muted: rgba(11, 99, 246, 0.15);
+
+  --fg-text-primary: #F3F4F6;
+  --fg-text-secondary: #9CA3AF;
+  --fg-text-muted: #6B7280;
+  --fg-text-inverse: #0C0F14;
+  --fg-text-brand: #3B82F6;
+  --fg-text-success: #34D399;
+
+  --fg-border-default: #262C3A;
+  --fg-border-muted: #1E232F;
+  --fg-border-focus: #3B82F6;
+
+  --fg-action-primary-bg: #0B63F6;
+  --fg-action-primary-hover-bg: #0952CE;
+  --fg-action-primary-text: #FFFFFF;
+  --fg-action-secondary-bg: #1F2430;
+  --fg-action-secondary-hover-bg: #2B3242;
+  --fg-action-secondary-text: #E5E7EB;
+  --fg-action-dark-bg: #262C3A;
+  --fg-action-dark-text: #FFFFFF;
+
+  --fg-chart-bar-primary: #0B63F6;
+  --fg-chart-bar-navy: #38BDF8;
+  --fg-chart-bar-sky: #7DD3FC;
+  --fg-chart-bar-dark: #374151;
+  --fg-chart-bar-muted: #1F2937;
+
+  --fg-card-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4), 0px 0px 0px 1px rgba(255, 255, 255, 0.05);
+}

@@ -1,0 +1,211 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "color": {
+    "background": {
+      "canvas": {
+        "$value": "#0B0E14",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#151922",
+        "$type": "color"
+      },
+      "surfaceMuted": {
+        "$value": "#1F2430",
+        "$type": "color"
+      },
+      "surfaceInverse": {
+        "$value": "#FFFFFF",
+        "$type": "color"
+      },
+      "surfaceBrand": {
+        "$value": "{color.brand.primary}",
+        "$type": "color"
+      },
+      "surfaceBrandMuted": {
+        "$value": "rgba(11, 99, 246, 0.15)",
+        "$type": "color"
+      }
+    },
+    "text": {
+      "primary": {
+        "$value": "#F3F4F6",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#9CA3AF",
+        "$type": "color"
+      },
+      "muted": {
+        "$value": "#6B7280",
+        "$type": "color"
+      },
+      "inverse": {
+        "$value": "#0C0F14",
+        "$type": "color"
+      },
+      "brand": {
+        "$value": "#3B82F6",
+        "$type": "color"
+      },
+      "success": {
+        "$value": "#34D399",
+        "$type": "color"
+      }
+    },
+    "border": {
+      "default": {
+        "$value": "#262C3A",
+        "$type": "color"
+      },
+      "muted": {
+        "$value": "#1E232F",
+        "$type": "color"
+      },
+      "focus": {
+        "$value": "#3B82F6",
+        "$type": "color"
+      }
+    },
+    "action": {
+      "primaryBg": {
+        "$value": "{color.brand.primary}",
+        "$type": "color"
+      },
+      "primaryHoverBg": {
+        "$value": "{color.brand.primaryHover}",
+        "$type": "color"
+      },
+      "primaryText": {
+        "$value": "{color.neutral.0}",
+        "$type": "color"
+      },
+      "secondaryBg": {
+        "$value": "#1F2430",
+        "$type": "color"
+      },
+      "secondaryHoverBg": {
+        "$value": "#2B3242",
+        "$type": "color"
+      },
+      "secondaryText": {
+        "$value": "#E5E7EB",
+        "$type": "color"
+      },
+      "darkBg": {
+        "$value": "#262C3A",
+        "$type": "color"
+      },
+      "darkText": {
+        "$value": "#FFFFFF",
+        "$type": "color"
+      }
+    },
+    "chart": {
+      "barPrimary": {
+        "$value": "{color.brand.primary}",
+        "$type": "color"
+      },
+      "barNavy": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "barSky": {
+        "$value": "#7DD3FC",
+        "$type": "color"
+      },
+      "barDark": {
+        "$value": "#374151",
+        "$type": "color"
+      },
+      "barMuted": {
+        "$value": "#1F2937",
+        "$type": "color"
+      }
+    }
+  },
+  "typography": {
+    "display": {
+      "fontSize": "{typography.fontSize.36}",
+      "fontWeight": "{typography.fontWeight.bold}",
+      "lineHeight": "{typography.lineHeight.tight}",
+      "letterSpacing": "{typography.letterSpacing.tight}",
+      "fontFamily": "{typography.fontFamily.sans}"
+    },
+    "headingLg": {
+      "fontSize": "{typography.fontSize.28}",
+      "fontWeight": "{typography.fontWeight.bold}",
+      "lineHeight": "{typography.lineHeight.tight}",
+      "fontFamily": "{typography.fontFamily.sans}"
+    },
+    "headingMd": {
+      "fontSize": "{typography.fontSize.20}",
+      "fontWeight": "{typography.fontWeight.bold}",
+      "lineHeight": "{typography.lineHeight.snug}",
+      "fontFamily": "{typography.fontFamily.sans}"
+    },
+    "headingSm": {
+      "fontSize": "{typography.fontSize.16}",
+      "fontWeight": "{typography.fontWeight.semibold}",
+      "lineHeight": "{typography.lineHeight.snug}",
+      "fontFamily": "{typography.fontFamily.sans}"
+    },
+    "bodyLg": {
+      "fontSize": "{typography.fontSize.16}",
+      "fontWeight": "{typography.fontWeight.regular}",
+      "lineHeight": "{typography.lineHeight.normal}",
+      "fontFamily": "{typography.fontFamily.sans}"
+    },
+    "bodyMd": {
+      "fontSize": "{typography.fontSize.14}",
+      "fontWeight": "{typography.fontWeight.regular}",
+      "lineHeight": "{typography.lineHeight.normal}",
+      "fontFamily": "{typography.fontFamily.sans}"
+    },
+    "bodySm": {
+      "fontSize": "{typography.fontSize.12}",
+      "fontWeight": "{typography.fontWeight.regular}",
+      "lineHeight": "{typography.lineHeight.normal}",
+      "fontFamily": "{typography.fontFamily.sans}"
+    },
+    "label": {
+      "fontSize": "{typography.fontSize.13}",
+      "fontWeight": "{typography.fontWeight.semibold}",
+      "lineHeight": "{typography.lineHeight.none}",
+      "fontFamily": "{typography.fontFamily.sans}"
+    },
+    "metric": {
+      "fontSize": "{typography.fontSize.32}",
+      "fontWeight": "{typography.fontWeight.bold}",
+      "lineHeight": "{typography.lineHeight.tight}",
+      "fontFamily": "{typography.fontFamily.sans}"
+    }
+  },
+  "component": {
+    "card": {
+      "radius": "{radius.2xl}",
+      "padding": "{spacing.24}",
+      "shadow": "0px 1px 3px rgba(0, 0, 0, 0.4), 0px 0px 0px 1px rgba(255, 255, 255, 0.05)"
+    },
+    "pillButton": {
+      "radius": "{radius.full}",
+      "paddingX": "{spacing.16}",
+      "paddingY": "{spacing.10}",
+      "fontSize": "{typography.fontSize.13}",
+      "fontWeight": "{typography.fontWeight.semibold}"
+    },
+    "iconButton": {
+      "radius": "{radius.full}",
+      "size": "40px",
+      "bg": "#1F2430",
+      "color": "#E5E7EB"
+    },
+    "badge": {
+      "radius": "{radius.full}",
+      "paddingX": "{spacing.10}",
+      "paddingY": "{spacing.4}",
+      "fontSize": "{typography.fontSize.11}",
+      "fontWeight": "{typography.fontWeight.semibold}"
+    }
+  }
+}

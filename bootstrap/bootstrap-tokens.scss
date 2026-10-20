@@ -1,0 +1,65 @@
+// Bootstrap 5 Token Adapter for Fingoals
+@import "../web/tokens.css";
+
+$primary:       #0B63F6 !default;
+$secondary:     #667085 !default;
+$success:       #12B76A !default;
+$info:          #00B4D8 !default;
+$warning:       #F79009 !default;
+$danger:        #F04438 !default;
+$light:         #F0F2F5 !default;
+$dark:          #0C0F14 !default;
+
+$body-bg:       var(--fg-bg-canvas);
+$body-color:    var(--fg-text-primary);
+$font-family-base: var(--fg-font-family-sans);
+
+$border-radius:               var(--fg-radius-md);
+$border-radius-sm:            var(--fg-radius-sm);
+$border-radius-lg:            var(--fg-radius-xl);
+$border-radius-pill:          var(--fg-radius-full);
+
+$card-border-radius:          var(--fg-card-radius);
+$card-border-color:           var(--fg-border-default);
+$card-bg:                     var(--fg-bg-surface);
+$card-box-shadow:             var(--fg-card-shadow);
+
+$btn-border-radius:           var(--fg-radius-full);
+$btn-padding-y:               8px;
+$btn-padding-x:               18px;
+
+.card {
+  border-radius: var(--fg-card-radius);
+  border: 1px solid var(--fg-border-default);
+  box-shadow: var(--fg-card-shadow);
+  background-color: var(--fg-bg-surface);
+}
+
+.btn-pill-primary {
+  background-color: var(--fg-action-primary-bg);
+  color: var(--fg-action-primary-text);
+  border-radius: var(--fg-radius-full);
+  border: none;
+  padding: 10px 20px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    background-color: var(--fg-action-primary-hover-bg);
+    color: #fff;
+  }
+}
+
+.btn-pill-dark {
+  background-color: var(--fg-action-dark-bg);
+  color: var(--fg-action-dark-text);
+  border-radius: var(--fg-radius-full);
+  border: none;
+  padding: 10px 20px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}

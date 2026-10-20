@@ -1,0 +1,106 @@
+{
+  "color": {
+    "background": {
+      "canvas": {
+        "$value": "{color.neutral.50}",
+        "$type": "color",
+        "$description": "Page canvas background for light theme",
+        "$extensions": {"confidence": "proposed","source": "Light theme adaptation"}
+      },
+      "surface": {
+        "$value": "{color.neutral.100}",
+        "$type": "color",
+        "$description": "Primary surface backgrounds such as cards",
+        "$extensions": {"confidence": "proposed","source": "Light theme adaptation"}
+      },
+      "surfaceElevated": {
+        "$value": "{color.neutral.200}",
+        "$type": "color",
+        "$description": "Elevated surfaces like navbars or modals",
+        "$extensions": {"confidence": "proposed","source": "Light theme adaptation"}
+      }
+    },
+    "border": {
+      "default": {
+        "$value": "{color.neutral.300}",
+        "$type": "color",
+        "$description": "Default border color for inputs and cards",
+        "$extensions": {"confidence": "proposed","source": "Light theme adaptation"}
+      },
+      "subtle": {
+        "$value": "{color.neutral.200}",
+        "$type": "color",
+        "$description": "Subtle divider or outline",
+        "$extensions": {"confidence": "proposed","source": "Light theme adaptation"}
+      }
+    },
+    "text": {
+      "primary": {
+        "$value": "{color.neutral.950}",
+        "$type": "color",
+        "$description": "Primary text on light surfaces",
+        "$extensions": {"confidence": "proposed","source": "Light theme adaptation"}
+      },
+      "secondary": {
+        "$value": "{color.neutral.600}",
+        "$type": "color",
+        "$description": "Secondary text for subtitles and meta",
+        "$extensions": {"confidence": "proposed","source": "Light theme adaptation"}
+      },
+      "muted": {
+        "$value": "{color.neutral.500}",
+        "$type": "color",
+        "$description": "Muted or disabled text",
+        "$extensions": {"confidence": "proposed","source": "Light theme adaptation"}
+      },
+      "inverse": {
+        "$value": "{color.white}",
+        "$type": "color",
+        "$description": "Text on dark accent surfaces",
+        "$extensions": {"confidence": "proposed","source": "Light theme adaptation"}
+      }
+    },
+    "brand": {
+      "primary": {
+        "$value": "{color.brand.500}",
+        "$type": "color",
+        "$description": "Primary brand accent (lime) for calls to action",
+        "$extensions": {"confidence": "observed","source": "Dark UI accent used as brand"}
+      },
+      "onPrimary": {
+        "$value": "{color.black}",
+        "$type": "color",
+        "$description": "Text color on primary brand surfaces",
+        "$extensions": {"confidence": "observed","source": "Button text contrast"}
+      },
+      "primaryHover": {
+        "$value": "{color.brand.400}",
+        "$type": "color",
+        "$description": "Hover state for primary brand elements",
+        "$extensions": {"confidence": "observed","source": "Hover glow"}
+      },
+      "primaryActive": {
+        "$value": "{color.brand.600}",
+        "$type": "color",
+        "$description": "Active/pressed state for brand elements",
+        "$extensions": {"confidence": "estimated","source": "Press feedback"}
+      }
+    },
+    "status": {
+      "success": {"$value": "{color.status.success.500}","$type":"color","$description":"Success semantic color","$extensions":{"confidence":"inferred","source":"Standard status palette"}},
+      "warning": {"$value": "{color.status.warning.500}","$type":"color","$description":"Warning semantic color","$extensions":{"confidence":"inferred","source":"Standard status palette"}},
+      "error": {"$value": "{color.status.error.500}","$type":"color","$description":"Error semantic color","$extensions":{"confidence":"inferred","source":"Standard status palette"}},
+      "info": {"$value": "{color.status.info.500}","$type":"color","$description":"Info semantic color","$extensions":{"confidence":"inferred","source":"Standard status palette"}}
+    }
+  },
+  "shadow": {
+    "ambient": {"$value": "{shadow.md}","$type":"shadow","$description":"Default ambient shadow for surfaces","$extensions":{"confidence":"proposed","source":"Light theme adaptation"}},
+    "focus": {"$value": "{shadow.glow-lime}","$type":"shadow","$description":"Focus ring glow using brand accent","$extensions":{"confidence":"proposed","source":"Light theme adaptation"}}
+  },
+  "opacity": {
+    "disabled": {"$value": "{opacity.40}","$type":"number","$description":"Opacity for disabled controls","$extensions":{"confidence":"proposed","source":"Light theme adaptation"}}
+  },
+  "zIndex": {
+    "modal": {"$value": "{zIndex.modal}","$type":"number","$description":"Stacking for modal dialogs","$extensions":{"confidence":"proposed","source":"Semantic layering"}}
+  }
+}
